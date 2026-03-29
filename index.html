@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteio-Desafio-DevClub</title>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <img class="dado" src="./img/dado.webp" alt="dado">
+            <h1 class="luck">Sorteio de Números</h1>
+            <p class="random">Defina o intervalo e sorteie um número aleatório</p>
+        </header>
+
+
+
+        <main>
+            <h1 class="number">Intervalo de Números</h1>
+            <div class="input">
+                <div>
+                    <p  class="pde">De</p>
+                    <p class="pate">Até</p>
+                </div>
+
+                <input class="input-min" placeholder="0" type="number">
+
+                <p class="divider">=</p>
+
+                <input class="input-max" placeholder="100" type="number">
+            </div>
+        </main>
+        <button onclick="generateNumber()" class="result">↺ Sortear</button>
+        <p class="number-luck">Sorteio de 0 a 100 (100 números possíveis)</p>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>

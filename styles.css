@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    Background: linear-gradient(45deg, #1A05A2, #3B064D, #8105D8, #ED0CEF, #FE59D7, #1A05A2);
+    background-size: 300% 500%;
+    line-height: 1.2;
+    animation: colors 5s ease infinite;
+}
+
+.dado {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+.main {
+    border-radius: 30px;
+    width: 75vh;
+    height: 55vh;
+    box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #1A05A2, #DE1A58, #F67D31);
+    background-size: 200% 300%;
+    animation: colors 5s ease infinite;
+
+}
+
+main {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.divider {
+    display: inline-block;
+    margin: 0px 30px 0px 40px;
+    opacity: 100%;
+}
+
+.input {
+    opacity: 70%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin: 0px 15px 15px 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.pde, .pate{
+    display: inline-block;
+    margin: 0px 0px 0px 25px;
+    opacity: 70%;
+}
+
+.pate {
+    margin-left: 260px;
+}
+
+.luck {
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    opacity: 60%
+}
+
+.random {
+    font-weight: 300;
+    font-size: 11px;
+    opacity: 60%;
+    text-align: center;
+}
+
+
+.number {
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 60%;
+    display: block;
+    margin-left: 25px;
+}
+
+button {
+    width: calc(100% - 40px);
+    justify-content: center;
+    display: block;
+    margin: 5px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4facfe, #00f2fe);
+    border: none;
+    font-weight: 500;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+button:active {
+    opacity: 50%;
+}
+
+.input {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-luck {
+    font-weight: 100;
+    text-align: center;
+    font-size: 10px;
+    margin: 20px 10px;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
